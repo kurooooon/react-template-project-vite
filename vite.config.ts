@@ -7,5 +7,9 @@ export default defineConfig({
     open: true,
   },
   root: "./src",
+  build: {
+    outDir: "../dist",
+    emptyOutDir: true,
+  },
   plugins: [react()],
 });
