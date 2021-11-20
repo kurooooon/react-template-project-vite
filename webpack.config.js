@@ -13,6 +13,13 @@ module.exports = {
         test: /\.tsx?$/,
         use: "ts-loader",
       },
+      {
+        test: /\.(png|jpe?g|gif|webp)$/i,
+        loader: "file-loader",
+        options: {
+          outputPath: "images",
+        },
+      },
     ],
   },
   resolve: {
