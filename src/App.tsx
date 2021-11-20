@@ -1,11 +1,10 @@
-import { useState } from "react";
-import logo from "./images/logo.svg";
-import "./App.css";
+import dog from "./images/dog.jpg";
 
 const App = () => {
   return (
     <div className="App">
       <h1>hellow, vite!</h1>
+      <img src={dog} />
     </div>
   );
 };
