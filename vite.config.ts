@@ -6,5 +6,6 @@ export default defineConfig({
   server: {
     open: true,
   },
+  root: "./src",
   plugins: [react()],
 });
