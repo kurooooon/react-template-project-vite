@@ -1,15 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import dogImage from "./images/dog.jpg";
+import { useState } from "react";
+import logo from "./images/logo.svg";
+import "./App.css";
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello React!</h1>
-
-      <img src={dogImage} alt="dog" />
+    <div className="App">
+      <h1>hellow, vite!</h1>
     </div>
   );
 };
 
-ReactDOM.render(<App />, document.querySelector("#app"));
+export default App;

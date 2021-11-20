@@ -1,2 +1,3 @@
-# react-template-project
-react template project
+# react-template-project-vite
+
+react template project vite
